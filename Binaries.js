@@ -54,13 +54,3 @@ function inverse (binaryNumber) {
 
 inverse ("1010");
 
-function twosComplement(str)
-{
-    let complement='';
-    let inversestr='';
-    inversestr=inverse(str);
-    complement=sumBinary(inversestr, '1');
-    console.log(complement);
-}
-
-twosComplement("10110");
