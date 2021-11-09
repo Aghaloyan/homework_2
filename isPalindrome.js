@@ -1,4 +1,4 @@
-console.log(isPal(1221));
+console.log(isPal(5678));
 
 function isPal(num)
 {

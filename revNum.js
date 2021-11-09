@@ -1,4 +1,4 @@
-console.log(reverseNum(56789));
+console.log(reverseNum(67364));
 
 function reverseNum(num)
 {
@@ -9,4 +9,3 @@ function reverseNum(num)
       num = Math.floor(num/10);
   }
   return sum;
-}

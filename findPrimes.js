@@ -23,3 +23,17 @@ function isPrime(num)
     }
     return p;
 }
+
+
+function range(number1, number2) {
+    let list = [];
+    let a = number1;
+    while (a <= number2) {
+        if (isPrime(a) === true) {
+            list.push(a);
+        }
+        a++
+    }
+    console.log(list);
+}
+range(10,20);
